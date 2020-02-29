@@ -1,3 +1,16 @@
+main {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
 .navbar-brand {
     font-family: "Cinzel", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.hero-img {
+    display: inline-block;
+    width: 80%;
+    
 }
