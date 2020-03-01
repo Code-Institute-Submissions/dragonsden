@@ -1,16 +1,34 @@
 main {
-    max-width: 1400px;
+    max-width: 1600px;
     margin: 0 auto;
 }
 
-.navbar-brand {
+.navbar-brand h1 {
     font-family: "Cinzel", sans-serif;
-    font-weight: 700;
-    font-size: 30px;
+    font-weight: 600;
+}
+
+.nav-link {
+    font-size: 15px !important;
 }
 
 .hero-img {
-    display: inline-block;
-    width: 80%;
-    
+    position: relative;
+    background: url("/assets/images/hero_cropped.jpg") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+.text-overlay {
+    position: absolute;
+    right: 30px;
+    top: 200px;
+    width: 250px;
+    height: 300px;
+    color: #fafafa;
+    text-transform: uppercase;
+    font-family: "Cinzel", sans-serif;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 5px 10px 5px; 
 }
