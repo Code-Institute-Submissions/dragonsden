@@ -3,6 +3,11 @@ main {
     margin: 0 auto;
 }
 
+nav {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+
 .nav-link {
     font-size: 15px !important;
 }
@@ -61,8 +66,10 @@ h2 {
 }
 
 .whitespace {
-    margin: 50px auto;
+    margin: 0 auto;
+    padding: 70px 0;
 }
+
 
 
 
