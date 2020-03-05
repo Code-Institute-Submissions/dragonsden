@@ -102,12 +102,12 @@ footer i {
     margin-top: 10px;
 }
 
-.modal_img {
+.modal-img {
     width: 100%;
 }
 
 /* Style the Image Used to Trigger the Modal */
-.modal_img {
+.modal-img {
   cursor: pointer;
   transition: 0.3s;
 }
