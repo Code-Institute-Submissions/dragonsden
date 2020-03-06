@@ -198,11 +198,20 @@ footer i {
 
 /*-----------------------------Contact form---------------------------------*/
 
+.form-section {
+    width: 60%;
+    margin: 0 auto;
+}
+
 form {
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
 }
 
 .display-block {
     display: block;
+}
+
+.form-width {
+    width: 100%;
 }

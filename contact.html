@@ -43,10 +43,10 @@
 		</div>
 	</nav>
 	<main>
-		<section>
+		<section class="form-section bg-dark">
 			<form action="" class="bg-light">
 				<label for="name">Name</label>
-				<input type="text" id="name" name="name" class="display-block" required>
+				<input type="text" id="name" name="name" class="display-block form-width" required>
 				<label for="email">Email</label>
 				<input type="email" id="email" name="email" class="display-block" required>
 				<label for="phone">Phone numer <span>(Optional)</span></label>
@@ -64,9 +64,11 @@
                 <option value="Other">Facebook</option>
                 </select>
                 <p>What genres are of your interest?</p>
-                <label class="display-block"><input type="checkbox" name=theme value="Medieval Fantasy">Medieval Fantasy</label>
-                <label class="display-block"><input type="checkbox" name=theme value="Science-Fiction">Science Fiction</label>
-                <label class="display-block"><input type="checkbox" name=theme value="Post Apocalypse">Post Apocalypse</label>
+                <label class="display-block"><input type="checkbox" name="theme" value="Medieval Fantasy">Medieval Fantasy</label>
+                <label class="display-block"><input type="checkbox" name="theme" value="Science-Fiction">Science Fiction</label>
+                <label class="display-block"><input type="checkbox" name="theme" value="Post Apocalypse">Post Apocalypse</label>
+                <p>Tell us about your project and ideas</p>
+                <textarea name="description" id="descriptions"  cols="30" rows="10" placeholder="Please describe you project and how we can help.."></textarea>
 			</form>
 		</section>
 	</main>
