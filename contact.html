@@ -7,7 +7,7 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.4.1/sandstone/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Cinzel|Roboto&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cinzel|Roboto|Poppins&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
 	<title>Dragon's Den Designs</title>
 </head>
@@ -44,17 +44,17 @@
 	</nav>
 	<main>
 		<section class="form-section bg-dark">
-			<form action="" class="bg-light">
+			<form action="" class="contact-form">
 				<label for="name">Name</label>
-				<input type="text" id="name" name="name" class="display-block form-width" required>
+				<input type="text" id="name" name="name" class="display-block input-width" required>
 				<label for="email">Email</label>
-				<input type="email" id="email" name="email" class="display-block" required>
+				<input type="email" id="email" name="email" class="display-block input-width" required>
 				<label for="phone">Phone numer <span>(Optional)</span></label>
-				<input type="tel" id="phone" name="phone" class="display-block" placeholder="555-85-009"
+				<input type="tel" id="phone" name="phone" class="display-block input-width" placeholder="555-85-009"
                 pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
 				<!--phone label and phone input copied from w3schools.com-->
 				<label for="founduswhere">How did you find us?</label>
-				<select name="founduswhere" id="founduswhere" class="display-block" required>
+				<select name="founduswhere" id="founduswhere" class="display-block input-width" required>
                 <option disabled selected value>Select an option</option>
                 <option value="facebook">Facebook</option>
                 <option value="Twitter">Twitter</option>
@@ -64,11 +64,18 @@
                 <option value="Other">Facebook</option>
                 </select>
                 <p>What genres are of your interest?</p>
-                <label class="display-block"><input type="checkbox" name="theme" value="Medieval Fantasy">Medieval Fantasy</label>
-                <label class="display-block"><input type="checkbox" name="theme" value="Science-Fiction">Science Fiction</label>
-                <label class="display-block"><input type="checkbox" name="theme" value="Post Apocalypse">Post Apocalypse</label>
+                <label class="display-block">
+                <input type="checkbox" name="theme" value="Medieval Fantasy">Medieval Fantasy
+                </label>
+                <label class="display-block">
+                <input type="checkbox" name="theme" value="Science-Fiction">Science Fiction
+                </label>
+                <label class="display-block">
+                <input type="checkbox" name="theme" value="Post Apocalypse">Post Apocalypse
+                </label>
                 <p>Tell us about your project and ideas</p>
-                <textarea name="description" id="descriptions"  cols="30" rows="10" placeholder="Please describe you project and how we can help.."></textarea>
+                <textarea name="description" id="descriptions" class="input-width"  cols="30" rows="10" 
+                placeholder="Please describe your project and how we can help.."></textarea>
 			</form>
 		</section>
 	</main>
