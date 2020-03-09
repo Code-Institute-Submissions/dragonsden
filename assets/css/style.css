@@ -16,6 +16,12 @@ nav {
 .nav-link {
     font-size: 15px !important;
 }
+
+@media screen and (max-width: 760px) {
+    .navbar-brand h1 {
+        font-size: 25px !important;
+    }
+}
 /*-----------------------------images---------------------------------*/
 .hero-img {
     position: relative;
@@ -48,6 +54,9 @@ nav {
         left: 20%;
         right: 20%;
         font-size: 1.75rem;
+    }
+    .about-img img {
+        width: 100% !important;
     }
 }
 
@@ -224,7 +233,7 @@ footer i {
     width: 50%;
     margin: 50px auto 0 auto;
     padding: 30px 0;
-    background-color: #212121;
+    background-color: rgba(21, 21, 21, 0.8);
 }
 
 
@@ -232,11 +241,13 @@ footer i {
     display: block;
 }
 
+
 .contact-form {
     background-color: #fafafa;
     margin: 0 auto;
     width: 90%;
     padding: 15px 15px;
+    font-size: 16px;
 
 }
 
@@ -246,6 +257,12 @@ footer i {
     border: 1px solid #bbb;
     padding: 0.3rem 0.6rem;
 }
+
+.label-adjust {
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
 
 @media screen and (max-width: 760px){
   .form-section {
