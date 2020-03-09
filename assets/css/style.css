@@ -19,7 +19,7 @@ nav {
 /*-----------------------------images---------------------------------*/
 .hero-img {
     position: relative;
-    background: url("/assets/images/creatures/hero_cropped.jpg") no-repeat center center;
+    background: url("assets/images/creatures/hero_cropped.JPG") no-repeat center center;
     background-size: cover;
     width: 100%;
     height: 600px;
