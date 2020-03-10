@@ -130,8 +130,8 @@ footer i {
 }
 
 /*-----------------------------Modified w3schools.com Modal Gallery---------------------------------*/
-.modalgallery .row {
-    margin-top: 10px;
+.modalgallery .row img {
+    padding: 5px;
 }
 
 .modal-img {
