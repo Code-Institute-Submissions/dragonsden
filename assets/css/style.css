@@ -3,7 +3,7 @@ body {
 }
 
 main {
-    max-width: 1400px;
+    max-width: 1800px;
     margin: 0 auto;
 }
 
@@ -39,7 +39,7 @@ nav {
     width: 100%;
     height: 600px;
     margin-bottom: 30px;
-    margin-top: 135px;
+    margin-top: 100px;
 }
 
 .text-overlay {
@@ -66,6 +66,9 @@ nav {
     }
     .about-img img {
         width: 100% !important;
+    }
+    .hero-img {
+        margin-top: 40px;
     }
 }
 
@@ -119,8 +122,9 @@ h2 {
 
 footer {
     text-align: center;
-    padding: 10px;
-    margin-top: 40px;
+    padding: 20px;
+    margin: 0;
+    background-color: #212121;
 }
 
 footer ul {
@@ -166,7 +170,6 @@ footer i {
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
 }
 
@@ -238,8 +241,23 @@ footer i {
 
 /*-----------------------------Contact form---------------------------------*/
 
+.top-space {
+    padding-top: 40px;
+}
+
+.contact-background {
+    background-image: linear-gradient(
+      115deg,
+      rgba(21, 21, 21, 0.8),
+      rgba(21, 21, 21, 0.8)
+    ), url(../images/creatures/firedragon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fafafa;
+}
+
 .form-section {
-    width: 50%;
+    width: 45%;
     margin: 50px auto 0 auto;
     padding: 30px 0;
     background-color: rgba(21, 21, 21, 0.8);
@@ -252,11 +270,11 @@ footer i {
 
 
 .contact-form {
-    background-color: #fafafa;
     margin: 0 auto;
-    width: 90%;
+    width: 80%;
     padding: 15px 15px;
     font-size: 16px;
+    color: #fafafa;
 
 }
 
@@ -283,15 +301,6 @@ footer i {
   }
 }
 
-.dragondivider {
-  background: url("/assets/images/dragonicon.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 50px;
-  height: 50px;
-  margin: 0 auto;
-  padding: 0;
-}
 
 
 
