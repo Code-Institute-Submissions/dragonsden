@@ -17,6 +17,15 @@ nav {
     font-size: 15px !important;
 }
 
+.navbar-toggler {
+    border-color: #fafafa !important;
+}
+
+.custom-toggler {
+    color: #fafafa;
+    border-color: #fafafa;
+}
+
 @media screen and (max-width: 760px) {
     .navbar-brand h1 {
         font-size: 25px !important;
