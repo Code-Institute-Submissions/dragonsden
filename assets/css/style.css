@@ -3,7 +3,7 @@ body {
 }
 
 main {
-    max-width: 1800px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -72,6 +72,18 @@ nav {
     }
     .dramatic-pic img {
         width: 100% !important;
+    }
+    .hero-img {
+    position: relative;
+    background: url("../images/creatures/heromobile.jpg") no-repeat center center;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 100px;
+    }
+    .text-overlay {
+        top: 17rem;
     }
 }
 
