@@ -32,6 +32,11 @@ nav {
     }
 }
 /*-----------------------------images---------------------------------*/
+
+.icon-divider {
+    width: 5%;
+}
+
 .hero-img {
     position: relative;
     background: url("../images/creatures/hero_cropped.jpg") no-repeat center center;
@@ -83,6 +88,9 @@ nav {
     margin-bottom: 30px;
     margin-top: 80px;
     }
+    .icon-divider {
+        width: 10%;
+    }
     
 }
 
@@ -108,9 +116,6 @@ h2 {
 }
 /*-----------------------------About Us---------------------------------*/
 
-.icon-divider {
-    width: 5%;
-}
 
 .about-img img {
     width: 80%;
