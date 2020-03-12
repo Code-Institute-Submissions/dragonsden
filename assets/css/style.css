@@ -105,11 +105,12 @@ h1 {
 
 h2 {
     font-weight: 600;
-    color: #212121;
 }
 /*-----------------------------About Us---------------------------------*/
 
-
+.icon-divider {
+    width: 5%;
+}
 
 .about-img img {
     width: 80%;
@@ -277,6 +278,12 @@ footer i {
     background-size: cover;
     background-repeat: no-repeat;
     color: #fafafa;
+}
+
+
+.contact-text {
+    color: #fafafa;
+    font-size: 25px;
 }
 
 .form-section {
