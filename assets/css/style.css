@@ -59,10 +59,11 @@ nav {
 
 @media screen and (max-width: 760px){
     .text-overlay {
-        top: 28rem;
+        top: 17rem;
         left: 20%;
         right: 20%;
         font-size: 1.75rem;
+        padding: 15px;
     }
     .about-img img {
         width: 100% !important;
@@ -80,15 +81,18 @@ nav {
     height: 400px;
     width: 100%;
     margin-bottom: 30px;
-    margin-top: 100px;
+    margin-top: 80px;
     }
-    .text-overlay {
-        top: 17rem;
-    }
+    
 }
 
 
 /*-----------------------------Headings---------------------------------*/
+
+.heading-divider {
+    border-top: 2px solid #212121;
+    margin-top: 0;
+}
 
 h1, 
 h2 {
@@ -101,11 +105,16 @@ h1 {
 
 h2 {
     font-weight: 600;
+    color: #212121;
 }
 /*-----------------------------About Us---------------------------------*/
 
+
+
 .about-img img {
     width: 80%;
+    border: 1px solid rgba(21, 21, 21, 0.5);
+    border-radius: 3px;
 }
 
 
@@ -115,6 +124,7 @@ h2 {
 
 .about-text {
     font-size: 25px;
+    color: #212121;
 }
 
 .whitespace {
