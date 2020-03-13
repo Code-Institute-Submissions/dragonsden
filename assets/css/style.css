@@ -1,5 +1,6 @@
 body {
     font-family: "Poppins", sans-serif;
+    background-color: #fafafa;
 }
 
 main {
@@ -34,8 +35,12 @@ nav {
 /*-----------------------------images---------------------------------*/
 
 .icon-divider {
-    width: 5%;
+    width: 7%;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    padding: 5px;
 }
+
 
 .hero-img {
     position: relative;
@@ -44,7 +49,7 @@ nav {
     width: 100%;
     height: 600px;
     margin-bottom: 30px;
-    margin-top: 100px;
+    
 }
 
 .text-overlay {
@@ -73,9 +78,7 @@ nav {
     .about-img img {
         width: 100% !important;
     }
-    .hero-img {
-        margin-top: 40px;
-    }
+    
     .dramatic-pic img {
         width: 100% !important;
     }
@@ -86,10 +89,9 @@ nav {
     height: 400px;
     width: 100%;
     margin-bottom: 30px;
-    margin-top: 80px;
     }
     .icon-divider {
-        width: 10%;
+        width: 15%;
     }
     
 }
@@ -99,6 +101,11 @@ nav {
 
 .heading-divider {
     border-top: 2px solid #212121;
+    margin-top: 0;
+}
+
+.heading-divider-light {
+    border-top: 2px solid #fafafa;
     margin-top: 0;
 }
 
@@ -115,6 +122,14 @@ h2 {
     font-weight: 600;
 }
 /*-----------------------------About Us---------------------------------*/
+
+.we-do-this {
+    margin-top: 100px;
+}
+
+.dark-background {
+    background-color: rgba(21, 21, 21, 1);
+}
 
 
 .about-img img {
@@ -133,8 +148,12 @@ h2 {
     color: #212121;
 }
 
+.light-text {
+    color: #fafafa;
+}
+
 .whitespace {
-    margin: 0 auto;
+    
     padding: 70px 0;
 }
 
