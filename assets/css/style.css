@@ -294,7 +294,7 @@ h2 {
     border: 2px solid #fafafa;
 }
 
-button {
+.submit-btn {
     border: none;
     width: 100%;
     border-radius: 3px;
