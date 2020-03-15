@@ -13,39 +13,37 @@
 </head>
 
 <body>
-	<nav class="navbar navbar-expand-lg navbar-light">
-		<a class="navbar-brand" href="index.html">
-			<h1 class="text-light">Dragon's Den</h1>
-		</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span><i class="fas fa-bars custom-toggler"></i></span>
-        </button>
-
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav mr-auto">
-				<li class="nav-item">
-					<a class="nav-link text-light" href="index.html#about-us">About us</a>
-				</li>
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle text-light" href="gallery.html" id="navbarDropdown" role="button"
-						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						Gallery
-					</a>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item" href="gallery.html#creatures">Creatures</a>
-						<a class="dropdown-item" href="gallery.html#scenery">Scenery</a>
-					</div>
-				</li>
-				<li class="nav-item active">
-					<a class="nav-link text-light" href="contact.html">Contact
-						<span class="sr-only">(current)</span></a>
-				</li>
-			</ul>
-		</div>
-	</nav>
+	<nav id="navbar" class="dark-background navbar navbar-expand-lg navbar-light">
+         <a class="navbar-brand" href="index.html">
+            <h1 class="light-text">Dragon's Den</h1>
+         </a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span><i class="fas fa-bars custom-toggler"></i></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+               <li class="nav-item active">
+                  <a class="nav-link light-text" href="#about-us">About us <span class="sr-only">(current)</span></a>
+               </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link light-text dropdown-toggle" href="gallery.html" id="navbarDropdown" role="button"
+                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Gallery
+                  </a>
+                  <div class="dropdown-menu dark-background" aria-labelledby="navbarDropdown">
+                     <a class="dropdown-item light-text" href="gallery.html#creatures">Creatures</a>
+                     <a class="dropdown-item light-text" href="gallery.html#scenery">Scenery</a>
+                  </div>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link light-text" href="contact.html">Contact</a>
+               </li>
+            </ul>
+         </div>
+      </nav>
 	<main>
-		<div class="contact-background">
-			<div class="col-12 center top-space">
+		<div class="dark-background about-space">
+			<div class="col-12 light-text center form-space">
 				<h2 class="contact-text">We Would Love To Hear From You</h2>
 				<p class="contact-text">Whether you're a player in need of artwork for your next campaign, a publisher, or
 					even an artist looking to contribute,
@@ -92,7 +90,7 @@
 			</section>
 		</div>
 	</main>
-	<footer>
+	<footer class="dark-background">
 		<p>Visit us on</p>
 		<ul>
 			<li><a href="http://www.facebook.com/"><i class="fab fa-facebook-square"></i></a></li>
