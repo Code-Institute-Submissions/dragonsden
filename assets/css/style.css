@@ -33,12 +33,19 @@ nav {
     }
 }
 /*-----------------------------images---------------------------------*/
+.dramatic-pic img {
+    width: 100%;
+}
+
+.icon-container {
+    padding: 35px 0 35px 0;
+}
 
 .icon-divider {
     width: 7%;
     border: 1px solid #212121;
     border-radius: 50%;
-    padding: 5px;
+    padding: 5px; 
 }
 
 
@@ -93,7 +100,6 @@ nav {
     .icon-divider {
         width: 18%;
     }
-    
 }
 
 
@@ -152,15 +158,23 @@ h2 {
     color: #fafafa;
 }
 
-.whitespace {
-    
-    padding: 70px 0;
+.about-space {
+    padding-bottom: 35px;
+    margin-top: 50px;
+}
+
+.to-the-top {
+    font-size: 20px;
 }
 
 @media screen and (max-width: 760px){
     .we-do-this{
         margin-top: 40%;
     }
+    .about-space {
+    padding-bottom: 25px;
+    margin-top: 25px;
+}
 }
 
 
