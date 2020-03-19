@@ -95,13 +95,19 @@ For any scenarios that have not been automated, test the user stories manually a
 
 1. Landing-page
     1. Clicked all links in navbar, including brand, to make sure the user is directed to the correct section/page: success
-    
+    2. Clicked contact link at bottom of landing page to make sure user is directed to contact page: success
+    3. Clicked contact link at bottom of landing page to make sure user is directed to contact page: success
+    4. Clicked "backt to top" link at bottom of landing page to make sure user is directed to top of landing page: success.
+    5. Redused screen size to check that page displays in single column on smaller screens: success
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+1. Gallery
+    1. Clicked all links in navbar, including brand, to make sure the user is directed to the correct section/page: success
+    2. Clicked all images to make sure the open in modal: success
+    3. Modal closes by clicking anywhere on modal: success
+    4. Redused screen size to make sure gallery displays in two columns instead of four columns on smaller screens: success
+
+1. Contact page
+    1. Try to submit
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
