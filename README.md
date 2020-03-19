@@ -64,14 +64,25 @@ For some/all of your features, you may choose to reference the specific project 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-- Another feature idea
+- The artists behind Dragons's Den are also hosting workshops for people who want to learn to design
+their own art. In the feature there will be a page dedicated to a schedule of these workshops.
+
+- The gallery will be divided into more sections: Characters, cities, maps etc.
+
+- Fixed price packages. For instance: 4 character designs, 1 world map, 1 city map - 100$.
 
 ## Technologies Used
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+- The project is written in HTML5 and CSS3
+
+- [Bootstrap](https://www.getbootstrap.com)
+    - The project uses bootstrap for large parts of the layout.
+
+- The project uses JavaScript from [w3schools](https://www.w3schools.com/howto/howto_css_modal_images.asp) in the gallery section to make
+images display in modal when clicked. Some of the script was modified by the author of Dragon's Den Designs
+to fit the project.
 
 
 ## Testing
@@ -81,6 +92,10 @@ In this section, you need to convince the assessor that you have conducted enoug
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
 
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+
+1. Landing-page
+    1. Clicked all links in navbar, including brand, to make sure the user is directed to the correct section/page: success
+    
 
 1. Contact form:
     1. Go to the "Contact Us" page
