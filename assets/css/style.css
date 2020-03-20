@@ -68,17 +68,16 @@ nav {
     border: 2px solid #fafafa;
     text-transform: uppercase;
     font-family: "Cinzel", sans-serif;
-    font-size: 2.25rem;
+    font-size: 220%;
     font-weight: 400;
     padding: 30px 30px; 
 }
 
-@media screen and (max-width: 760px){
+@media screen and (max-width: 790px){
     .text-overlay {
-        top: 17rem;
+        top: 20rem;
         left: 20%;
         right: 20%;
-        font-size: 1.75rem;
         padding: 15px;
     }
     .about-img img {
@@ -98,6 +97,22 @@ nav {
     }
     .icon-divider {
         width: 18%;
+    }
+}
+
+@media screen and (max-width: 460px){
+    .text-overlay {
+        top: 17rem;
+    }
+}
+
+@media screen and (max-width: 370px){
+    .we-do-this {
+        margin-top: 200px !important;
+    }
+    .text-overlay {
+        top: 20rem;
+        font-size: 150%;
     }
 }
 
@@ -168,12 +183,17 @@ h2 {
 
 @media screen and (max-width: 760px){
     .we-do-this{
-        margin-top: 40%;
+        margin-top: 20%;
     }
     .about-space {
     padding-bottom: 25px;
     margin-top: 25px;
   }
+}
+
+@media screen and (max-width: 600px){
+    .we-do-this{
+        margin-top: 40%;
 }
 
 
