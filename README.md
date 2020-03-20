@@ -33,6 +33,12 @@ of artwork.
 - The contact page should have a form which has fields that I am required to fill in. Some fields should also check that my 
 input is in the correct format, like the field for the e-mail address.
 
+### wireframes
+
+- [Landingpage top](attachments/wireframelandingtop.pdf) / [mobile](attachments/mobilewireframelandingtop.pdf)
+- [Landingpage bottom](attachments/wireframelandingbottom.pdf) / [mobile](attachments/mobilewireframelandingbottom.pdf)
+- [Gallery](attachments/wireframegallery.pdf) / [mobile](attachments/mobilewireframegallery.pdf)
+- [Contact](attachments/wireframecontact.pdf) / [mobile](attachments/mobilewireframecontact.pdf)
 
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
