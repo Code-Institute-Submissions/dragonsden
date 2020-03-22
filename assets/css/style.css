@@ -38,7 +38,7 @@ nav {
 }
 
 .icon-container {
-    padding: 35px 0 35px 0;
+    padding: 35px 0 15px 0;
 }
 
 .icon-divider {
@@ -204,8 +204,11 @@ h2 {
     padding: 5px;
 }
 
+
 .modal-img {
+    
     width: 100%;
+   
 }
 
 /* Style the Image Used to Trigger the Modal */
