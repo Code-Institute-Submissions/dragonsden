@@ -8,12 +8,12 @@ main {
     margin: 0 auto;
 }
 
-nav {
-    padding-top: 20px !important;
-    padding-bottom: 20px !important;
+.nav-padding {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-.nav-link {
+ .nav-link-text {
     font-size: 15px !important;
 }
 
@@ -28,8 +28,8 @@ nav {
 }
 
 @media screen and (max-width: 760px) {
-    .navbar-brand h1 {
-        font-size: 25px !important;
+    .navbar-brand-font h1 {
+        font-size: 25px;
     }
 }
 /*-----------------------------images---------------------------------*/
@@ -81,12 +81,10 @@ nav {
         padding: 15px;
     }
     .about-img img {
-        width: 90% !important;
+        width: 90%;
     }
     
-    .dramatic-pic img {
-        width: 100% !important;
-    }
+
     .hero-img {
     position: relative;
     background: url("../images/creatures/heromobile.jpg") no-repeat center center;
@@ -107,11 +105,8 @@ nav {
 }
 
 @media screen and (max-width: 370px){
-    .we-do-this {
-        margin-top: 200px !important;
-    }
     .text-overlay {
-        top: 20rem;
+        top: 17rem;
         font-size: 150%;
     }
 }
@@ -174,12 +169,13 @@ h2 {
 
 .about-space {
     padding-bottom: 35px;
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 .to-the-top {
     font-size: 20px;
 }
+
 
 @media screen and (max-width: 760px){
     .we-do-this {
@@ -197,6 +193,11 @@ h2 {
     }
 }
 
+@media screen and (max-width: 370px){
+    .we-do-this {
+        margin-top: 150px;
+    }
+}
 
 
 /*-----------------------------Modified w3schools.com Modal Gallery---------------------------------*/
