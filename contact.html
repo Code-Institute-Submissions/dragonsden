@@ -1,102 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.4.1/sandstone/bootstrap.min.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-      <link href="https://fonts.googleapis.com/css?family=Cinzel|Roboto|Poppins&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-      <title>Dragon's Den Designs</title>
-   </head>
-   <body>
-      <nav id="navbar" class="dark-background navbar navbar-expand-lg navbar-light">
-         <a class="navbar-brand" href="index.html">
-            <h1 class="light-text">Dragon's Den</h1>
-         </a>
-         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-         <span><i class="fas fa-bars custom-toggler"></i></span>
-         </button>
-         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-               <li class="nav-item active">
-                  <a class="nav-link light-text" href="index.html#about-us">About us <span class="sr-only">(current)</span></a>
-               </li>
-               <li class="nav-item dropdown">
-                  <a class="nav-link light-text dropdown-toggle" href="gallery.html" id="navbarDropdown" role="button"
-                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Gallery
-                  </a>
-                  <div class="dropdown-menu dark-background" aria-labelledby="navbarDropdown">
-                     <a class="dropdown-item light-text" href="gallery.html#creatures">Creatures</a>
-                     <a class="dropdown-item light-text" href="gallery.html#scenery">Scenery</a>
-                  </div>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link light-text" href="contact.html">Contact</a>
-               </li>
-            </ul>
-         </div>
-      </nav>
-      <main>
-         <div class="dark-background about-space">
-            <div class="col-12 light-text center form-space">
-               <h2 class="contact-text">We Would Love To Hear From You</h2>
-               <p class="contact-text">Whether you're a player in need of artwork for your next campaign, a publisher, or
-                  even an artist looking to contribute,
-                  we would love to hear from you! Please fill out the form below, and we'll be in touch in no time!
-               </p>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.4.1/sandstone/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Cinzel|Roboto|Poppins&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+        <title>Dragon's Den Designs</title>
+    </head>
+    <body>
+        <nav id="navbar" class="dark-background navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="index.html">
+                <h1 class="light-text">Dragon's Den</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span><i class="fas fa-bars custom-toggler"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link light-text" href="index.html#about-us">About us <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link light-text dropdown-toggle" href="gallery.html" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Gallery
+                        </a>
+                        <div class="dropdown-menu dark-background" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item light-text" href="gallery.html#creatures">Creatures</a>
+                            <a class="dropdown-item light-text" href="gallery.html#scenery">Scenery</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link light-text" href="contact.html">Contact</a>
+                    </li>
+                </ul>
             </div>
-            <section class="form-section">
-               <form action="" class="contact-form">
-                  <label class="label-adjust" for="name">Name</label>
-                  <input type="text" id="name" name="name" class="display-block input-style" required>
-                  <label class="label-adjust" for="email">Email</label>
-                  <input type="email" id="email" name="email" class="display-block input-style" required>
-                  <label class="label-adjust" for="phone">Phone numer <span>(Optional)</span></label>
-                  <input type="tel" id="phone" name="phone" class="display-block input-style">
-                  <!--phone label and phone input copied from w3schools.com-->
-                  <label class="label-adjust" for="founduswhere">How did you find us?</label>
-                  <select name="founduswhere" id="founduswhere" class="display-block input-style" required>
-                     <option disabled selected value>Select an option</option>
-                     <option value="facebook">Facebook</option>
-                     <option value="Twitter">Twitter</option>
-                     <option value="Instagram">Instagram</option>
-                     <option value="Ads">Ads on gaming-related sites</option>
-                     <option value="Through friends">Other</option>
-                     <option value="Other">Facebook</option>
-                  </select>
-                  <p>What genres are of your interest?</p>
-                  <label class="display-block checkbox-label">
-                  <input type="checkbox" name="theme" value="Medieval Fantasy">Medieval Fantasy</label>
-                  <label class="display-block checkbox-label">
-                  <input type="checkbox" name="theme" value="Science-Fiction">Science Fiction
-                  </label>
-                  <label class="display-block checkbox-label">
-                  <input type="checkbox" name="theme" value="Post Apocalypse">Post Apocalypse
-                  </label>
-                  <label class="display-block checkbox-label">
-                  <input type="checkbox" name="theme" value="Horror">Horror
-                  </label>
-                  <p class="label-adjust">Tell us about your project and ideas</p>
-                  <textarea name="description" id="descriptions" class="input-style"  cols="30" rows="10"
-                     placeholder="Please describe your project and how we can help.."></textarea>
-                  <button class="submit-btn">Submit</button>
-               </form>
-            </section>
-         </div>
-      </main>
-      <footer class="dark-background mt-5">
-         <p>Visit us on</p>
-         <ul>
-            <li><a href="http://www.facebook.com/"><i class="fab fa-facebook-square"></i></a></li>
-            <li><a href="http://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
-            <li><a href="http://www.twitter.com/"><i class="fab fa-twitter-square"></i></a></li>
-         </ul>
-      </footer>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
-   </body>
+        </nav>
+        <main>
+            <div class="dark-background about-space">
+                <div class="col-12 light-text center form-space">
+                    <h2 class="contact-text">We Would Love To Hear From You</h2>
+                    <p class="contact-text">Whether you're a player in need of artwork for your next campaign, a publisher, or
+                        even an artist looking to contribute,
+                        we would love to hear from you! Please fill out the form below, and we'll be in touch in no time!
+                    </p>
+                </div>
+                <section class="form-section">
+                    <form action="" class="contact-form">
+                        <label class="label-adjust" for="name">Name</label>
+                        <input type="text" id="name" name="name" class="display-block input-style" required>
+                        <label class="label-adjust" for="email">Email</label>
+                        <input type="email" id="email" name="email" class="display-block input-style" required>
+                        <label class="label-adjust" for="phone">Phone numer <span>(Optional)</span></label>
+                        <input type="tel" id="phone" name="phone" class="display-block input-style">
+                        <!--phone label and phone input copied from w3schools.com-->
+                        <label class="label-adjust" for="founduswhere">How did you find us?</label>
+                        <select name="founduswhere" id="founduswhere" class="display-block input-style" required>
+                            <option disabled selected value>Select an option</option>
+                            <option value="facebook">Facebook</option>
+                            <option value="Twitter">Twitter</option>
+                            <option value="Instagram">Instagram</option>
+                            <option value="Ads">Ads on gaming-related sites</option>
+                            <option value="Through friends">Other</option>
+                            <option value="Other">Facebook</option>
+                        </select>
+                        <p>What genres are of your interest?</p>
+                        <label class="display-block checkbox-label">
+                        <input type="checkbox" name="theme" value="Medieval Fantasy">Medieval Fantasy</label>
+                        <label class="display-block checkbox-label">
+                        <input type="checkbox" name="theme" value="Science-Fiction">Science Fiction
+                        </label>
+                        <label class="display-block checkbox-label">
+                        <input type="checkbox" name="theme" value="Post Apocalypse">Post Apocalypse
+                        </label>
+                        <label class="display-block checkbox-label">
+                        <input type="checkbox" name="theme" value="Horror">Horror
+                        </label>
+                        <p class="label-adjust">Tell us about your project and ideas</p>
+                        <textarea name="description" id="descriptions" class="input-style"  cols="30" rows="10"
+                            placeholder="Please describe your project and how we can help.."></textarea>
+                        <button class="submit-btn">Submit</button>
+                    </form>
+                </section>
+            </div>
+        </main>
+        <footer class="dark-background mt-5">
+            <p>Visit us on</p>
+            <ul>
+                <li><a href="http://www.facebook.com/"><i class="fab fa-facebook-square"></i></a></li>
+                <li><a href="http://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="http://www.twitter.com/"><i class="fab fa-twitter-square"></i></a></li>
+            </ul>
+        </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    </body>
 </html>
+	
