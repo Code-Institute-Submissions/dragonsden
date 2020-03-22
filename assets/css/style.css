@@ -13,16 +13,16 @@ main {
     padding-bottom: 20px;
 }
 
- .nav-link-text {
-    font-size: 15px !important;
+.nav-item .nav-link.nav-link-text.light-text {
+    font-size: 15px;
+    color: #fafafa;
 }
 
-
-.navbar-toggler {
-    border-color: #fafafa !important;
+.navbar-brand .light-text {
+    color:#fafafa;
 }
 
-.custom-toggler {
+.custom-toggler.navbar-toggler {
     color: #fafafa;
     border-color: #fafafa;
 }
@@ -143,7 +143,7 @@ h2 {
 }
 
 .dark-background {
-    background-color: rgba(21, 21, 21, 1) !important;
+    background-color: rgba(21, 21, 21, 1);
 }
 
 
@@ -164,8 +164,10 @@ h2 {
 }
 
 .light-text {
-    color: #fafafa !important;
+    color: #fafafa;
 }
+
+
 
 .about-space {
     padding-bottom: 35px;
