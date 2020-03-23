@@ -203,6 +203,10 @@ h2 {
 
 
 /*-----------------------------Modified w3schools.com Modal Gallery---------------------------------*/
+.margin-bottom {
+    margin-bottom: 40px;
+}
+
 .modalgallery .row img {
     padding: 5px;
 }
@@ -210,7 +214,7 @@ h2 {
 .table-cell {
         width: 350px;
         height: 250px;
-        border: 1px solid gray;
+        border: 1px solid #484848;
         border-radius: 3px;
         vertical-align: middle;
         text-align: center;
@@ -302,6 +306,12 @@ h2 {
   }
 }
 
+@media screen and (max-width: 1000px){
+    .table-cell {
+        height: 150px;
+    }
+}
+
 /* 100% Image Width on Smaller Screens */
 @media screen and (max-width: 760px){
   .about-img {
@@ -309,6 +319,15 @@ h2 {
     height: 100%;
     padding: 0;
   }
+  .margin-bottom {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 400px){
+    .table-cell {
+        height: 150px;
+    }
 }
 
 /*-----------------------------Contact form---------------------------------*/
@@ -387,6 +406,7 @@ cursor: pointer;
      width: 95%;
   }
 }
+
 
 /*-----------------------------footer---------------------------------*/
 
