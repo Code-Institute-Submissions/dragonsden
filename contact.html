@@ -4,13 +4,15 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="icon" href="assets/images/dragonicon.png">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.4.1/sandstone/bootstrap.min.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-      <link href="https://fonts.googleapis.com/css?family=Cinzel|Roboto|Poppins&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Cinzel|Poppins&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="assets/css/style.css" type="text/css">
       <title>Dragon's Den Designs</title>
    </head>
    <body>
+   <!--Bootstrap navbar -->
       <nav id="navbar" class="dark-background nav-padding navbar navbar-expand-lg navbar-light">
          <a class="navbar-brand" href="index.html">
             <h1 class="light-text">Dragon's Den</h1>
@@ -39,7 +41,9 @@
             </ul>
          </div>
       </nav>
+      <!--Main has a max width of 1400px to prevent too much stretching on very wide screens-->
       <main>
+      <!--All content wrapped in div to add background image-->
          <div class="dark-background about-space background-image">
             <div class="col-12 light-text center form-space">
                <h2 class="contact-text">We Would Love To Hear From You</h2>
@@ -48,6 +52,7 @@
                   we would love to hear from you! Please fill out the form below, and we'll be in touch in no time!
                </p>
             </div>
+            <!--The contact form. No template used.-->
             <section class="form-section">
                <form action="" class="contact-form">
                   <label class="label-adjust" for="name">Name</label>
@@ -87,6 +92,7 @@
             </section>
          </div>
       </main>
+      <!--Footer has padding on large screens. Zero margins on smaller screens to connect with main content.-->
       <footer class="dark-background footer-contact">
          <p class="text-light">Follow us on</p>
          <ul>
