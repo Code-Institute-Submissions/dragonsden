@@ -35,10 +35,10 @@ input is in the correct format, like the field for the e-mail address.
 
 ### wireframes
 
-- [Landingpage top](attachments/wireframelandingtop.pdf) / [mobile](attachments/mobilewireframelandingtop.pdf)
-- [Landingpage bottom](attachments/wireframelandingbottom.pdf) / [mobile](attachments/mobilewireframelandingbottom.pdf)
-- [Gallery](attachments/wireframegallery.pdf) / [mobile](attachments/mobilewireframegallery.pdf)
-- [Contact](attachments/wireframecontact.pdf) / [mobile](attachments/mobilewireframecontact.pdf)
+- [Landingpage top](attachments/wireframelandingtop.pdf) | [mobile](attachments/mobilewireframelandingtop.pdf)
+- [Landingpage bottom](attachments/wireframelandingbottom.pdf) | [mobile](attachments/Mobilewireframelandingbottom.pdf)
+- [Gallery](attachments/Wireframegallery.pdf) | [mobile](attachments/mobilewireframegallery.pdf)
+- [Contact](attachments/wireframecontact.pdf) | [mobile](attachments/mobilewireframecontact.pdf)
 
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
@@ -104,43 +104,69 @@ For any scenarios that have not been automated, test the user stories manually a
     2. Clicked contact link at bottom of landing page to make sure user is directed to contact page: success
     3. Clicked contact link at bottom of landing page to make sure user is directed to contact page: success
     4. Clicked "backt to top" link at bottom of landing page to make sure user is directed to top of landing page: success.
-    5. Redused screen size to check that page displays in single column on smaller screens: success
+    5. Clicked social media links to check if user is directed to correct social media network: success
+    6. Redused screen size to check that page displays in single column on smaller screens: success
 
 1. Gallery
     1. Clicked all links in navbar, including brand, to make sure the user is directed to the correct section/page: success
     2. Clicked all images to make sure the open in modal: success
     3. Modal closes by clicking anywhere on modal: success
     4. Redused screen size to make sure gallery displays in two columns instead of four columns on smaller screens: success
+    5. Clicked social media links to check if user is directed to correct social media network: success
 
 1. Contact page
-    1. Try to submit
+    1. Clicked all links in navbar, including brand, to make sure the user is directed to the correct section/page: success
+    2. If you try to submit without a valid e-mail address and without input in required fields, there 
+    should pop up a message telling the user what's missing: success
+    3. Clicked social media links to check if user is directed to correct social media network: success
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+### Testing and Responsiveness across browsers and devices
+The website was built and tested in Chrome throughout the construction. In addition it has been tested
+in Mozilla Firefox, MS Edge and Mac OS Safari. The website is responsive as intended across
+all browsers used in testing.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+The website has also been tested physically on iPhone S, ipad 2nd gen., iPhone 7 and Mi a2 Redmi note 7.
+The website responds well to smaller screen sizes and no major problems have appeared. The intention
+is that on medium to small screens the website is layed out in a single column 
+(except for the gallery), which it does. During construction the site was constantly tested on phone sized
+screen in the Chrome dev. tools to make sure it looked good and behaved as intended.
+
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+I followed this procedure to deploy Dragon's Den
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+1. Navigate to the [repository](https://github.com/thorole/dragonsden)
+2. Select [Branch: master]
+3. Go to settings
+4. Scroll down to "Github Pages". Make sure the repo is set to public in "Danger Zone"-section beneath. 
+5. Select [master branch] 
+6. Refresh setting page and scroll down to "Github pages" to view the live website URL.
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+To clone the repository, follow these instructions:
 
+1. Navigate to the [repository](https://github.com/thorole/dragonsden)
+2. Click **Clone or download**
+3. Copy the url from the **Clone or download** dropdown.
+4. In cli, navigate to the folder where you want to clone the repository.
+5. Type *git clone*, and then paste the URL you copied in Step 3.
+6. Press Enter 
+
+For more information, visit [Cloning a repository](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
+on github.
 
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
-
+- The function that makes images open in modal when clicked was copied from [w3schools](https://www.w3schools.com/howto/howto_css_modal_images.asp).
+- Template for navigation bar copied from [Bootstrap website](https://getbootstrap.com/docs/4.0/components/navbar/)
 ### Media
-- The photos used in this site were obtained from ...
+- Most of the images on the site, including the hero image was taken from [Pixabay](www.pixabay.com)
+- Some images also taken from [HD wallpapers](www.hdwallpapers.net)
+- The dragon icon and favicon was taken from [FreeIconsPng](www.freeiconspng.com)
+
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- 
