@@ -190,6 +190,20 @@ h2 {
 	font-size: 20px;
 }
 
+.link-grow {
+    display: block;
+    transition: font-size .3s ease-out;
+    height: 25px;
+}
+
+.link-grow:hover {
+    text-decoration: none;
+    font-size: 29px;
+}
+
+.back-to-top-link:hover {
+    text-decoration: none;
+}
 
 @media screen and (max-width: 760px) {
 	.we-do-this {
