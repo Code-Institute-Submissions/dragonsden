@@ -13,9 +13,24 @@ main {
 	padding-bottom: 20px;
 }
 
-.nav-item .nav-link.nav-link-text.light-text {
+.nav-item .nav-link.nav-link-text.light-text, .dropdown-menu .dropdown-item  {
 	font-size: 15px;
+    -o-transition: color 0.3s ease;
+    -ms-transition: color 0.3s ease;
+    -moz-transition: color 0.3s ease;
+    -webkit-transition: color 0.3s ease;
+    transition: color 0.3s ease;
 	color: #fafafa;
+    background-color: rgba(21,21,21, 1);
+}
+
+.nav-item .nav-link.nav-link-text.light-text:hover, .dropdown-menu .dropdown-item:hover {
+    color: #ff6700;
+    background-color: rgba(21, 21, 21, 1);
+}
+
+.dropdown-menu .dropdown-item {
+    font-size: 10px;
 }
 
 .navbar-brand .light-text {

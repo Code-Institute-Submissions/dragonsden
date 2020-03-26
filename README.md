@@ -60,7 +60,7 @@ larger view of the image. This section is also split into two categories:
 
 This way the user can see that the artists master different kinds of motives.
 
-- Contact Us - This page presents the user with a form. The form asks the user about relevant information
+- [Contact Us](https://github.com/thorole/dragonsden/blob/master/contact.html) - This page presents the user with a form. The form asks the user about relevant information
 such as name, contact information and a textfield where the user can freely express her-/himself.
 The form also asks for optional information about how the user came across the site. This should be usefulfor the 
 owners.
@@ -99,7 +99,7 @@ Whenever it is feasible, prefer to automate your tests, and if you've done so, p
 
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
-### Landing-page
+#### Landing-page
 - Clicked all links in navbar, including brand, to make sure the user is directed to the correct section/page: success
 - Clicked contact link at bottom of landing page to make sure user is directed to contact page: success
 - Clicked contact link at bottom of landing page to make sure user is directed to contact page: success
@@ -107,14 +107,14 @@ For any scenarios that have not been automated, test the user stories manually a
 - Clicked social media links to check if user is directed to correct social media network: success
 - Redused screen size to check that page displays in single column on smaller screens: success
 
-### Gallery
+#### Gallery
 - Clicked all links in navbar, including brand, to make sure the user is directed to the correct section/page: success
 - Clicked all images to make sure the open in modal: success
 - Modal closes by clicking anywhere on modal: success
 - Redused screen size to make sure gallery displays in two columns instead of four columns on smaller screens: success
 - Clicked social media links to check if user is directed to correct social media network: success
 
-### Contact page
+#### Contact page
 - Clicked all links in navbar, including brand, to make sure the user is directed to the correct section/page: success
 - If you try to submit without a valid e-mail address and without input in required fields, there 
     should pop up a message telling the user what's missing: success
@@ -132,15 +132,15 @@ is that on medium to small screens the website is layed out in a single column
 (except for the gallery), which it does. During construction the site was constantly tested on phone sized
 screen in the Chrome dev. tools to make sure it looked good and behaved as intended.
 
-### Tools used in testing
+#### Tools used in testing
 - [W3C Markup Validation](https://validator.w3.org/) 
 - [Free Formatter](https://www.freeformatter.com/)
 
   - ***Note:*** *During development, Gitpod's format function was buggy so the code had to be externally formatted
 and pasted back into gitpod. This resulted in poor indentation practice in the first two thirds of the commits.* 
-- [Accessibility checker](www.achecker.ca)
+- [Accessibility checker](https://www.achecker.ca)
     - Errors concerning contrast between text and background
-    - Errors concerning use of <i> element (used for fontawsome).
+    - Errors concerning use of ```<i>``` element (used for fontawsome).
     - Potential problems concerning <img> elements and alt="" description being too short. 
 
 ## Deployment
