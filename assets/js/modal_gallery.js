@@ -148,6 +148,152 @@ img.onclick = function(){
   captionText.innerHTML = this.alt;
 }
 
+
+var img = document.getElementById("imgSeventeen");
+var modalImg = document.getElementById("img01");// Get the image and insert it inside the modal - use its "alt" text as a caption
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+
+var img = document.getElementById("imgEighteen");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+var img = document.getElementById("imgNineteen");
+var modalImg = document.getElementById("img01");// Get the image and insert it inside the modal - use its "alt" text as a caption
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+var img = document.getElementById("imgTwenty");
+var modalImg = document.getElementById("img01");// Get the image and insert it inside the modal - use its "alt" text as a caption
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+var img = document.getElementById("imgTwentyone");
+var modalImg = document.getElementById("img01");// Get the image and insert it inside the modal - use its "alt" text as a caption
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+var img = document.getElementById("imgTwentytwo");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+var img = document.getElementById("imgTwentythree");
+var modalImg = document.getElementById("img01");// Get the image and insert it inside the modal - use its "alt" text as a caption
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+var img = document.getElementById("imgTwentyfour");
+var modalImg = document.getElementById("img01");// Get the image and insert it inside the modal - use its "alt" text as a caption
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+var img = document.getElementById("imgTwentyfive");
+var modalImg = document.getElementById("img01");// Get the image and insert it inside the modal - use its "alt" text as a caption
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+var img = document.getElementById("imgTwentysix");
+var modalImg = document.getElementById("img01");// Get the image and insert it inside the modal - use its "alt" text as a caption
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+var img = document.getElementById("imgTwentyseven");
+var modalImg = document.getElementById("img01");// Get the image and insert it inside the modal - use its "alt" text as a caption
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+var img = document.getElementById("imgTwentyeight");
+var modalImg = document.getElementById("img01");// Get the image and insert it inside the modal - use its "alt" text as a caption
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+var img = document.getElementById("imgTwentynine");
+var modalImg = document.getElementById("img01");// Get the image and insert it inside the modal - use its "alt" text as a caption
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+var img = document.getElementById("imgThirty");
+var modalImg = document.getElementById("img01");// Get the image and insert it inside the modal - use its "alt" text as a caption
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+var img = document.getElementById("imgThirtyone");
+var modalImg = document.getElementById("img01");// Get the image and insert it inside the modal - use its "alt" text as a caption
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+var img = document.getElementById("imgThirtytwo");
+var modalImg = document.getElementById("img01");// Get the image and insert it inside the modal - use its "alt" text as a caption
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
 modal.onclick = function(){
 modal.style.display = "none";
 }

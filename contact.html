@@ -15,7 +15,7 @@
    <!--Bootstrap navbar -->
       <nav id="navbar" class="dark-background nav-padding navbar navbar-expand-lg navbar-light">
          <a class="navbar-brand" href="index.html">
-            <h1 class="light-text">Dragon's Den</h1>
+            <h1 class="heading light-text">Dragon's Den</h1>
          </a>
          <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
          <span><i class="fas fa-bars custom-toggler"></i></span>
@@ -31,7 +31,7 @@
                   Gallery
                   </a>
                   <div class="dropdown-menu dark-background" aria-labelledby="navbarDropdown">
-                     <a class="dropdown-item light-text" href="gallery.html#creatures">Creatures</a>
+                     <a class="dropdown-item light-text" href="gallery.html#gallery">Creatures</a>
                      <a class="dropdown-item light-text" href="gallery.html#scenery">Scenery</a>
                   </div>
                </li>
@@ -46,7 +46,7 @@
       <!--All content wrapped in div to add background image-->
          <div class="dark-background about-space background-image">
             <div class="col-12 light-text center form-space">
-               <h2 class="contact-text">We Would Love To Hear From You</h2>
+               <h2 class="heading contact-text">We Would Love To Hear From You</h2>
                <p class="contact-text">Whether you're a player in need of artwork for your next campaign, a publisher, or
                   even an artist looking to contribute,
                   we would love to hear from you! Please fill out the form below, and we'll be in touch in no time!
@@ -59,8 +59,8 @@
                   <input type="text" id="name" name="name" class="display-block input-style" required>
                   <label class="label-adjust" for="email">Email</label>
                   <input type="email" id="email" name="email" class="display-block input-style" required>
-                  <label class="label-adjust" for="phone">Phone numer <span>(Optional)</span></label>
-                  <input type="tel" id="phone" name="phone" class="display-block input-style">
+                  <label class="label-adjust" for="phone">Phone number <span>(Optional)</span></label>
+                  <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="ex. 555-35-809" class="display-block input-style">
                   <!--phone label and phone input copied from w3schools.com-->
                   <label class="label-adjust" for="founduswhere">How did you find us?</label>
                   <select name="founduswhere" id="founduswhere" class="display-block input-style" required>
