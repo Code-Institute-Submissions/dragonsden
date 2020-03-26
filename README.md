@@ -99,7 +99,7 @@ Whenever it is feasible, prefer to automate your tests, and if you've done so, p
 
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
-1. Landing-page
+### Landing-page
     1. Clicked all links in navbar, including brand, to make sure the user is directed to the correct section/page: success
     2. Clicked contact link at bottom of landing page to make sure user is directed to contact page: success
     3. Clicked contact link at bottom of landing page to make sure user is directed to contact page: success
@@ -107,14 +107,14 @@ For any scenarios that have not been automated, test the user stories manually a
     5. Clicked social media links to check if user is directed to correct social media network: success
     6. Redused screen size to check that page displays in single column on smaller screens: success
 
-1. Gallery
+### Gallery
     1. Clicked all links in navbar, including brand, to make sure the user is directed to the correct section/page: success
     2. Clicked all images to make sure the open in modal: success
     3. Modal closes by clicking anywhere on modal: success
     4. Redused screen size to make sure gallery displays in two columns instead of four columns on smaller screens: success
     5. Clicked social media links to check if user is directed to correct social media network: success
 
-1. Contact page
+### Contact page
     1. Clicked all links in navbar, including brand, to make sure the user is directed to the correct section/page: success
     2. If you try to submit without a valid e-mail address and without input in required fields, there 
     should pop up a message telling the user what's missing: success
@@ -135,7 +135,7 @@ screen in the Chrome dev. tools to make sure it looked good and behaved as inten
 
 ## Deployment
 
-I followed this procedure to deploy Dragon's Den
+**I followed this procedure to deploy Dragon's Den**
 
 1. Navigate to the [repository](https://github.com/thorole/dragonsden)
 2. Select [Branch: master]
@@ -144,7 +144,7 @@ I followed this procedure to deploy Dragon's Den
 5. Select [master branch] 
 6. Refresh setting page and scroll down to "Github pages" to view the live website URL.
 
-To clone the repository, follow these instructions:
+**To clone the repository, follow these instructions:**
 
 1. Navigate to the [repository](https://github.com/thorole/dragonsden)
 2. Click **Clone or download**
