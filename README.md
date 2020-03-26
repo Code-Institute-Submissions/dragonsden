@@ -100,25 +100,25 @@ Whenever it is feasible, prefer to automate your tests, and if you've done so, p
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
 ### Landing-page
-    1. Clicked all links in navbar, including brand, to make sure the user is directed to the correct section/page: success
-    2. Clicked contact link at bottom of landing page to make sure user is directed to contact page: success
-    3. Clicked contact link at bottom of landing page to make sure user is directed to contact page: success
-    4. Clicked "backt to top" link at bottom of landing page to make sure user is directed to top of landing page: success.
-    5. Clicked social media links to check if user is directed to correct social media network: success
-    6. Redused screen size to check that page displays in single column on smaller screens: success
+- Clicked all links in navbar, including brand, to make sure the user is directed to the correct section/page: success
+- Clicked contact link at bottom of landing page to make sure user is directed to contact page: success
+- Clicked contact link at bottom of landing page to make sure user is directed to contact page: success
+- Clicked "backt to top" link at bottom of landing page to make sure user is directed to top of landing page: success.
+- Clicked social media links to check if user is directed to correct social media network: success
+- Redused screen size to check that page displays in single column on smaller screens: success
 
 ### Gallery
-    1. Clicked all links in navbar, including brand, to make sure the user is directed to the correct section/page: success
-    2. Clicked all images to make sure the open in modal: success
-    3. Modal closes by clicking anywhere on modal: success
-    4. Redused screen size to make sure gallery displays in two columns instead of four columns on smaller screens: success
-    5. Clicked social media links to check if user is directed to correct social media network: success
+- Clicked all links in navbar, including brand, to make sure the user is directed to the correct section/page: success
+- Clicked all images to make sure the open in modal: success
+- Modal closes by clicking anywhere on modal: success
+- Redused screen size to make sure gallery displays in two columns instead of four columns on smaller screens: success
+- Clicked social media links to check if user is directed to correct social media network: success
 
 ### Contact page
-    1. Clicked all links in navbar, including brand, to make sure the user is directed to the correct section/page: success
-    2. If you try to submit without a valid e-mail address and without input in required fields, there 
+- Clicked all links in navbar, including brand, to make sure the user is directed to the correct section/page: success
+- If you try to submit without a valid e-mail address and without input in required fields, there 
     should pop up a message telling the user what's missing: success
-    3. Clicked social media links to check if user is directed to correct social media network: success
+- Clicked social media links to check if user is directed to correct social media network: success
 
 
 ### Testing and Responsiveness across browsers and devices
@@ -132,6 +132,16 @@ is that on medium to small screens the website is layed out in a single column
 (except for the gallery), which it does. During construction the site was constantly tested on phone sized
 screen in the Chrome dev. tools to make sure it looked good and behaved as intended.
 
+### Tools used in testing
+- [W3C Markup Validation](https://validator.w3.org/) 
+- [Free Formatter](https://www.freeformatter.com/)
+
+  - ***Note:*** *During development, Gitpod's format function was buggy so the code had to be externally formatted
+and pasted back into gitpod. This resulted in poor indentation practice in the first two thirds of the commits.* 
+- [Accessibility checker](www.achecker.ca)
+    - Errors concerning contrast between text and background
+    - Errors concerning use of <i> element (used for fontawsome).
+    - Potential problems concerning <img> elements and alt="" description being too short. 
 
 ## Deployment
 
