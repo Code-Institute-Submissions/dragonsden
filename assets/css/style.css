@@ -120,7 +120,7 @@ main {
 
 @media screen and (max-width: 370px) {
 	.text-overlay {
-		top: 17rem;
+		top: 20rem;
 		font-size: 150%;
 	}
 }
