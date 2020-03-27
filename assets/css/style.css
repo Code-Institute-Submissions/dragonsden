@@ -46,6 +46,9 @@ main {
 	.navbar-brand-font h1 {
 		font-size: 25px;
 	}
+    .dropdown-menu .dropdown-item {
+    font-size: 13px;
+    }
 }
 
 
