@@ -16,8 +16,6 @@ main {
 .nav-item .nav-link.nav-link-text.light-text, .dropdown-menu .dropdown-item  {
 	font-size: 15px;
     -o-transition: color 0.3s ease;
-    -ms-transition: color 0.3s ease;
-    -moz-transition: color 0.3s ease;
     -webkit-transition: color 0.3s ease;
     transition: color 0.3s ease;
 	color: #fafafa;
@@ -198,9 +196,7 @@ main {
 .link-grow {
     display: block;
     -o-transition: font-size .3s ease-out;
-    -ms-transition: font-size .3s ease-out;
     -webkit-transition: font-size .3s ease-out;
-    -moz-transition: font-size .3s ease-out;
     transition: font-size .3s ease-out;
     height: 25px;
 }
@@ -266,6 +262,8 @@ main {
 	display: block;
 	margin: 0 auto;
 	cursor: pointer;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
 	transition: 0.3s;
 }
 
@@ -317,16 +315,31 @@ main {
 
 .modal-content,
 #caption {
-	animation-name: zoom;
-	animation-duration: 0.6s;
+	-webkit-animation-name: zoom;
+	        animation-name: zoom;
+	-webkit-animation-duration: 0.6s;
+	        animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+	from {
+		-webkit-transform: scale(0);
+		        transform: scale(0)
+	}
+	to {
+		-webkit-transform: scale(1);
+		        transform: scale(1)
+	}
 }
 
 @keyframes zoom {
 	from {
-		transform: scale(0)
+		-webkit-transform: scale(0);
+		        transform: scale(0)
 	}
 	to {
-		transform: scale(1)
+		-webkit-transform: scale(1);
+		        transform: scale(1)
 	}
 }
 
@@ -340,6 +353,8 @@ main {
 	color: #f1f1f1;
 	font-size: 40px;
 	font-weight: bold;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
 	transition: 0.3s;
 }
 
@@ -392,6 +407,8 @@ main {
 /*-----------------------------Contact form---------------------------------*/
 
 .background-image {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(21, 21, 21, 1)), to(rgba(21, 21, 21, 0.2))), url(../images/creatures/knightcontact.jpg);
+	background-image: -o-linear-gradient(top, rgba(21, 21, 21, 1), rgba(21, 21, 21, 0.2)), url(../images/creatures/knightcontact.jpg);
 	background-image: linear-gradient(180deg, rgba(21, 21, 21, 1), rgba(21, 21, 21, 0.2)), url(../images/creatures/knightcontact.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -528,8 +545,3 @@ footer i {
 		margin-top: 0;
 	}
 }
-
-
-
-
-

@@ -76,8 +76,7 @@ their own art. In the feature there will be a page dedicated to a schedule of th
 
 - The project is written in HTML5 and CSS3
 
-- [Bootstrap](https://www.getbootstrap.com)
-    - The project uses bootstrap for large parts of the layout.
+- [Bootstrap](https://www.getbootstrap.com) - The project uses bootstrap for large parts of the layout.
 
 - The project uses JavaScript from [w3schools](https://www.w3schools.com/howto/howto_css_modal_images.asp) in the gallery section to make
 images display in modal when clicked. Some of the script was modified by the author of Dragon's Den Designs
@@ -125,6 +124,7 @@ screen in the Chrome dev. tools to make sure it looked good and behaved as inten
 #### Tools used in testing
 - [W3C Markup Validation](https://validator.w3.org/) (30 errors in bootstrap css, 0 errors in html and local style.css) 
 - [Free Formatter](https://www.freeformatter.com/)
+- [Autoprefixer](https://autoprefixer.github.io/)
 
   - ***Note:*** *During development, Gitpod's format function was buggy so the code had to be externally formatted
 and pasted back into gitpod. This resulted in poor indentation practice in the first two thirds of the commits.* 
@@ -164,7 +164,7 @@ on github.
 ### Media
 - Most of the images on the site, including the hero image was taken from [Pixabay](https://www.pixabay.com) and [wallpaperflare](https://www.wallpaperflare.com)
 - Some images also taken from [HD wallpapers](https://www.hdwallpapers.net)
-- The dragon icon and favicon was taken from [FreeIconsPng]https://(www.freeiconspng.com)
+- The dragon icon and favicon was taken from [FreeIconsPng](https://(www.freeiconspng.com)
 
 
 ### Acknowledgements
