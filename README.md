@@ -1,6 +1,6 @@
 # Dragon's Den Designs
 Inline-style: 
-![alt text](https://github.com/thorole/dragonsden/attachments/readmehero.PNG "Dragons Den hero-image")
+![alt text](https://github.com/thorole/dragonsden/tree/master/attachments/readmehero.PNG "Dragons Den hero-image")
 [Dragon's Den](thorole.github.io/dragonsden)
 
 Dragon's Den Designs is a website for dedicated table-top rpg players who want to lift their game to the next level. The designers at Dragons Den
