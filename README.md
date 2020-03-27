@@ -15,8 +15,7 @@ website never require more than one click.
 ### User Stories
 
 
-- Upon entering the website, I can immediately see a big hero image with at text label, telling me what what Dragon's Den 
-Designs do.
+- Upon entering the website, I can immediately see images and text that communicates the purpose/services of the website.
 
 - I want to be able to easily locate the navigation bar, so that I can navigate directly to the content I wish to view. The
 links in the navigation bar are self explanatory.
@@ -41,19 +40,17 @@ input is in the correct format, like the field for the e-mail address.
 - [Contact](attachments/wireframecontact.pdf) | [mobile](attachments/mobilewireframecontact.pdf)
 
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
-
 ## Features
 
 The site is divided into three pages which are all meaningful on their own, meaning, for instance, that the user is not rquired to 
 read everything on the landing page to enjoy or understand what's going on in the gallery or contact pages. 
 
 ### Existing Features
-- About Us - This page, which is also the landing page, allows the user to get an impression of what the website can offer
+- [[About Us](https://github.com/thorole/dragonsden/blob/master/index.html) - This page, which is also the landing page, allows the user to get an impression of what the website can offer
 by reading and viewing images. It's structured as a walkthrough of the process from where the costumer presents and idea and up to the 
 point where the artwork is finished. At the bottom of this page there's a dramatic image to showcase what such artwork may look
 like when it's finished. 
-- Gallery - The Gallery page offers example art for the user to view. All of the thumbnails opens up in a modal for able
+- [Gallery](https://github.com/thorole/dragonsden/blob/master/gallery.html) - The Gallery page offers example art for the user to view. All of the thumbnails opens up in a modal for able
 larger view of the image. This section is also split into two categories:
    - Creatures
    - Sceneries
@@ -64,8 +61,6 @@ This way the user can see that the artists master different kinds of motives.
 such as name, contact information and a textfield where the user can freely express her-/himself.
 The form also asks for optional information about how the user came across the site. This should be usefulfor the 
 owners.
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
@@ -79,8 +74,6 @@ their own art. In the feature there will be a page dedicated to a schedule of th
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
 - The project is written in HTML5 and CSS3
 
 - [Bootstrap](https://www.getbootstrap.com)
@@ -93,11 +86,8 @@ to fit the project.
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+In addition to the manual tests beneath, the site has also been tested by other users on Code Institute's Slack room. One 
+bug was reported where the user was able to send text through the phone input on the contact page. This error has been fixed.
 
 #### Landing-page
 - Clicked all links in navbar, including brand, to make sure the user is directed to the correct section/page: success
@@ -133,7 +123,7 @@ is that on medium to small screens the website is layed out in a single column
 screen in the Chrome dev. tools to make sure it looked good and behaved as intended.
 
 #### Tools used in testing
-- [W3C Markup Validation](https://validator.w3.org/) 
+- [W3C Markup Validation](https://validator.w3.org/) (30 errors in bootstrap css, 0 errors in html and local style.css) 
 - [Free Formatter](https://www.freeformatter.com/)
 
   - ***Note:*** *During development, Gitpod's format function was buggy so the code had to be externally formatted
@@ -172,9 +162,9 @@ on github.
 - The function that makes images open in modal when clicked was copied from [w3schools](https://www.w3schools.com/howto/howto_css_modal_images.asp).
 - Template for navigation bar copied from [Bootstrap website](https://getbootstrap.com/docs/4.0/components/navbar/)
 ### Media
-- Most of the images on the site, including the hero image was taken from [Pixabay](www.pixabay.com)
-- Some images also taken from [HD wallpapers](www.hdwallpapers.net)
-- The dragon icon and favicon was taken from [FreeIconsPng](www.freeiconspng.com)
+- Most of the images on the site, including the hero image was taken from [Pixabay](https://www.pixabay.com) and [wallpaperflare](https://www.wallpaperflare.com)
+- Some images also taken from [HD wallpapers](https://www.hdwallpapers.net)
+- The dragon icon and favicon was taken from [FreeIconsPng]https://(www.freeiconspng.com)
 
 
 ### Acknowledgements
