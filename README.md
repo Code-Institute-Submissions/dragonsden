@@ -1,16 +1,36 @@
 # Dragon's Den Designs
+Inline-style: 
+![alt text](https://github.com/thorole/dragonsden/attachments/readmehero.PNG "Dragons Den hero-image")
 [Dragon's Den](thorole.github.io/dragonsden)
 
 Dragon's Den Designs is a website for dedicated table-top rpg players who want to lift their game to the next level. The designers at Dragons Den
 specialize in designing artwork for fantasy settings and make custom artwork, tailored after the customer's demands.
  
 ## UX
- 
+
+### General
+
 The owners of the website recognize that there's a demand and a market for custom artwork for table-top role playing games.
 Players are looking for professional and customized designs of their characters, monsters, sceneries, maps etc.., in contrast
 to generic artwork that comes with the games. It is important for the owners of the website that the artwork itself is in focus
 and gets the most attention. Furthermore it's also key for the owners that navigating between the three main parts of the
 website never require more than one click.
+
+### Typography
+The website is very image-heavy, and does not demand the user to do a lot of reading. Nonetheless, it is important
+that the fonts works well for reading and that they have somewhat of an interesting look  The website makes use of two fonts from [Google Fonts'](https://fonts.google.com/) library: [Cinzel](https://fonts.google.com/specimen/Cinzel)
+ and [Poppins](https://fonts.google.com/specimen/Poppins). Cinzel is used for all headings and brand because
+ of its fantasy-like feeling and sharpened, pointy edges. Poppins is used for all other text like paragraphs and in the contact form because of
+ it easy-to-read style and nice rounded shapes.
+
+ ### Colors
+ The main idea of the website is to make all the imagery stand out and "steal" the user's focus and attention.
+ Therefore, the layout of the site is mostly a light shade of black(#212121) and a soft white(#fafafa) tone.
+ To make the site a bit more interactive and interesting, a secondary color is introduced in the links in the navbar, which fades to a light orange on hover.
+ The same orange color appears again in the social media links in the footer. A third color, green, is applied
+ to two links ("Contact us" and "Back to top") at the bottom of the landing page, just to make them stand out and
+ encourage the user to use them. 
+ 
 
 ### User Stories
 
@@ -32,7 +52,7 @@ of artwork.
 - The contact page should have a form which has fields that I am required to fill in. Some fields should also check that my 
 input is in the correct format, like the field for the e-mail address.
 
-### wireframes
+### Wireframes
 
 - [Landingpage top](attachments/wireframelandingtop.pdf) | [mobile](attachments/mobilewireframelandingtop.pdf)
 - [Landingpage bottom](attachments/wireframelandingbottom.pdf) | [mobile](attachments/Mobilewireframelandingbottom.pdf)
@@ -46,7 +66,7 @@ The site is divided into three pages which are all meaningful on their own, mean
 read everything on the landing page to enjoy or understand what's going on in the gallery or contact pages. 
 
 ### Existing Features
-- [[About Us](https://github.com/thorole/dragonsden/blob/master/index.html) - This page, which is also the landing page, allows the user to get an impression of what the website can offer
+- [About Us](https://github.com/thorole/dragonsden/blob/master/index.html) - This page, which is also the landing page, allows the user to get an impression of what the website can offer
 by reading and viewing images. It's structured as a walkthrough of the process from where the costumer presents and idea and up to the 
 point where the artwork is finished. At the bottom of this page there's a dramatic image to showcase what such artwork may look
 like when it's finished. 
@@ -77,10 +97,14 @@ their own art. In the feature there will be a page dedicated to a schedule of th
 - The project is written in HTML5 and CSS3
 
 - [Bootstrap](https://www.getbootstrap.com) - The project uses bootstrap for large parts of the layout.
-
+- [Google Fonts](https://fonts.google.com/)
 - The project uses JavaScript from [w3schools](https://www.w3schools.com/howto/howto_css_modal_images.asp) in the gallery section to make
 images display in modal when clicked. Some of the script was modified by the author of Dragon's Den Designs
 to fit the project.
+- [Free Formatter](https://www.freeformatter.com/)
+
+  - ***Note:*** *During development, Gitpod's format function was buggy so the code had to be externally formatted
+and pasted back into gitpod. This resulted in poor indentation in the first two thirds of the commits.* 
 
 
 ## Testing
@@ -123,15 +147,13 @@ screen in the Chrome dev. tools to make sure it looked good and behaved as inten
 
 #### Tools used in testing
 - [W3C Markup Validation](https://validator.w3.org/) (30 errors in bootstrap css, 0 errors in html and local style.css) 
-- [Free Formatter](https://www.freeformatter.com/)
-- [Autoprefixer](https://autoprefixer.github.io/)
 
-  - ***Note:*** *During development, Gitpod's format function was buggy so the code had to be externally formatted
-and pasted back into gitpod. This resulted in poor indentation practice in the first two thirds of the commits.* 
 - [Accessibility checker](https://www.achecker.ca)
     - Errors concerning contrast between text and background
     - Errors concerning use of ```<i>``` element (used for fontawsome).
     - Potential problems concerning <img> elements and alt="" description being too short. 
+- [Autoprefixer](https://autoprefixer.github.io/)
+- [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)
 
 ## Deployment
 
@@ -164,9 +186,9 @@ on github.
 ### Media
 - Most of the images on the site, including the hero image was taken from [Pixabay](https://www.pixabay.com) and [wallpaperflare](https://www.wallpaperflare.com)
 - Some images also taken from [HD wallpapers](https://www.hdwallpapers.net)
-- The dragon icon and favicon was taken from [FreeIconsPng](https://(www.freeiconspng.com)
+- The dragon icon and favicon was taken from [FreeIconsPng](https://www.freeiconspng.com)
 
 
 ### Acknowledgements
 
-- 
+...
