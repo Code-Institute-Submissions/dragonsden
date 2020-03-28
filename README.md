@@ -18,13 +18,13 @@ website never require more than one click.
 ### Typography
 The website is very image-heavy, and does not demand the user to do a lot of reading. Nonetheless, it is important
 that the fonts works well for reading and that they have somewhat of an interesting look  The website makes use of two fonts from [Google Fonts'](https://fonts.google.com/) library: [Cinzel](https://fonts.google.com/specimen/Cinzel)
- and [Poppins](https://fonts.google.com/specimen/Poppins). Cinzel is used for all headings and brand because
+ and [Poppins](https://fonts.google.com/specimen/Poppins). Cinzel is used for all headings and for the brand because
  of its fantasy-like feeling and sharpened, pointy edges. Poppins is used for all other text like paragraphs and in the contact form because of
- it easy-to-read style and nice rounded shapes.
+ its nice and rounded shapes and easy-to-read style.
 
  ### Colors
  The main idea of the website is to make all the imagery stand out and "steal" the user's focus and attention.
- Therefore, the layout of the site is mostly a light shade of black(#212121) and a soft white(#fafafa) tone.
+ Therefore, the layout of the site is mostly a light shade of black(#212121) and a tone of soft white(#fafafa).
  To make the site a bit more interactive and interesting, a secondary color is introduced in the links in the navbar, which fades to a light orange on hover.
  The same orange color appears again in the social media links in the footer. A third color, green, is applied
  to two links ("Contact us" and "Back to top") at the bottom of the landing page, just to make them stand out and
@@ -93,7 +93,8 @@ their own art. In the feature there will be a page dedicated to a schedule of th
 
 ## Technologies Used
 
-- The project is written in HTML5 and CSS3
+- [Gitpod](https://gitpod.io/)
+- The project is written in [HTML5](https://www.w3.org/) and [CSS3](https://www.w3.org/)
 
 - [Bootstrap](https://www.getbootstrap.com) - The project uses bootstrap for large parts of the layout.
 - [Google Fonts](https://fonts.google.com/)
@@ -192,4 +193,5 @@ on github.
 
 ### Acknowledgements
 
-...
+This site inspired some of Dragon's Den's layout:
+https://www.unicef.org/child-rights-convention 
