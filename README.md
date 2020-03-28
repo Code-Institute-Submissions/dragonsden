@@ -1,6 +1,6 @@
 # Dragon's Den Designs
 
-[Dragon's Den](thorole.github.io/dragonsden)
+[Dragon's Den](https://thorole.github.io/dragonsden)
 
 Dragon's Den Designs is a website for dedicated table-top rpg players who want to lift their game to the next level. The designers at Dragons Den
 specialize in designing artwork for fantasy settings and make custom artwork, tailored after the customer's demands.
@@ -148,9 +148,11 @@ screen in the Chrome dev. tools to make sure it looked good and behaved as inten
 - [W3C Markup Validation](https://validator.w3.org/) (30 errors in bootstrap css, 0 errors in html and local style.css) 
 
 - [Accessibility checker](https://www.achecker.ca)
-    - Errors concerning contrast between text and background
-    - Errors concerning use of ```<i>``` element (used for fontawsome).
-    - Potential problems concerning <img> elements and alt="" description being too short. 
+    - 5 problems concerning use of ```<i>``` element (used for fontawsome) The checker suggests using ```<em>``` or ```<strong>```.
+      - *Font awsome recommends using the ```<i>``` element for their icons. I've followed font awsome's [guidelines for accessibility](https://fontawesome.com/how-to-use/on-the-web/other-topics/accessibility)
+      to make all font awesome icons accessible.*  
+    - Potential problems concerning <img> elements and ```alt=""``` description being too short. 
+      - *All images have ```alt=""``` descriptions. None of the images are semantically important.*
 - [Autoprefixer](https://autoprefixer.github.io/)
 - [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)
 
