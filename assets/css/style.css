@@ -529,6 +529,11 @@ footer li {
 footer i {
 	font-size: 40px;
 	color: #ff6600;
+    transition: color .3s ease;
+}
+
+footer i:hover {
+    color: #cc5200;
 }
 
 .footer-contact {
