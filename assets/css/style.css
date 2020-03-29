@@ -23,12 +23,12 @@ main {
 }
 
 .nav-item .nav-link.nav-link-text.light-text:hover, .dropdown-menu .dropdown-item:hover {
-    color: #ff6600;
+    color: #ff8000;
     background-color: #212121;
 }
 
 .active .nav-link.nav-link-text.light-text {
-    color: #ff6600;
+    color: #ff8000;
 }
 
 .dropdown-menu .dropdown-item {
@@ -532,7 +532,7 @@ footer li {
 
 footer i {
 	font-size: 40px;
-	color: #ff6600;
+	color: #ff8000;
     transition: color .3s ease;
 }
 
