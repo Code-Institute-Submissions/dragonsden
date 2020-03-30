@@ -36,7 +36,7 @@ that the fonts works well for reading and that they have somewhat of an interest
 
 - Upon entering the website, I can immediately see images and text that communicates the purpose/services of the website.
 
-- I want to be able to easily locate the navigation bar, so that I can navigate directly to the content I wish to view. The
+- I want to be able to easily locate the navigation bar, so that I can navigate directly to the content I wish to explore. The
 links in the navigation bar are self explanatory.
 
 - On the landing page, I want to to be able to get a quick overview of what Dragon's Den Designs offer, so that I can can decide
