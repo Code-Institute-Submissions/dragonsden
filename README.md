@@ -95,7 +95,7 @@ their own art. In the feature there will be a page dedicated to a schedule of th
 
 - [Gitpod](https://gitpod.io/)
 - The project is written in [HTML5](https://www.w3.org/) and [CSS3](https://www.w3.org/)
-
+- [Fontawesome](https://fontawesome.com/)
 - [Bootstrap](https://www.getbootstrap.com) - The project uses bootstrap for large parts of the layout.
 - [Google Fonts](https://fonts.google.com/)
 - The project uses JavaScript from [w3schools](https://www.w3schools.com/howto/howto_css_modal_images.asp) in the gallery section to make
@@ -150,8 +150,8 @@ screen in the Chrome dev. tools to make sure it looked good and behaved as inten
 
 - [Accessibility checker](https://www.achecker.ca)
     - 5 problems concerning use of ```<i>``` element (used for fontawsome) The checker suggests using ```<em>``` or ```<strong>```.
-      - *Font awsome recommends using the ```<i>``` element for their icons. I've followed font awsome's [guidelines for accessibility](https://fontawesome.com/how-to-use/on-the-web/other-topics/accessibility)
-      to make all font awesome icons accessible.*  
+      - *Font awsome recommends using the ```<i>``` element for their icons. Font awesome's [guidelines for accessibility](https://fontawesome.com/how-to-use/on-the-web/other-topics/accessibility)
+      has been followed to make all font awesome icons accessible.*  
     - Potential problems concerning <img> elements and ```alt=""``` description being too short. 
       - *All images have ```alt=""``` descriptions. None of the images are semantically important.*
 - [Autoprefixer](https://autoprefixer.github.io/)

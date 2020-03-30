@@ -63,7 +63,7 @@ body {
 }
  .hero-img {
      position: relative;
-     background: url("../images/creatures/hero_cropped.jpg") no-repeat center center;
+     background: url("../images/creatures/herocropped.jpg") no-repeat center center;
      background-size: cover;
      width: 100%;
      height: 600px;
