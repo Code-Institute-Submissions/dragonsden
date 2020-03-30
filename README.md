@@ -1,6 +1,6 @@
 # Dragon's Den Designs
-![readmehero](attachments/readmehero.png)
-[Dragon's Den](https://thorole.github.io/dragonsden)
+![readmehero](assets/images/creatures/herocropped.jpg)
+[Live website](https://thorole.github.io/dragonsden)
 
 Dragon's Den Designs is a website for dedicated table-top rpg players who want to lift their game to the next level. The designers at Dragons Den
 specialize in designing artwork for fantasy settings and make custom artwork, tailored after the customer's demands.
