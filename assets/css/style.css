@@ -71,7 +71,7 @@ main {
 
 /*-----------------------------images---------------------------------*/
 
-.dramatic-pic img {
+.dramatic-pic {
 	width: 100%;
 }
 
@@ -93,6 +93,12 @@ main {
 	width: 100%;
 	height: 600px;
 	margin-bottom: 30px;
+}
+
+.about-img img {
+	width: 80%;
+	border: 1px solid rgba(21, 21, 21, 0.5);
+	border-radius: 3px;
 }
 
 .text-overlay {
@@ -117,7 +123,7 @@ main {
 		padding: 15px;
 	}
 	.about-img img {
-		width: 90%;
+		width: 100%;
 	}
 	.hero-img {
 		position: relative;
@@ -180,12 +186,6 @@ main {
 
 .dark-background {
 	background-color: #212121;
-}
-
-.about-img img {
-	width: 80%;
-	border: 1px solid rgba(21, 21, 21, 0.5);
-	border-radius: 3px;
 }
 
 .center {
