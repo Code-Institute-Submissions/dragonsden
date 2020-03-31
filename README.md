@@ -54,8 +54,8 @@ input is in the correct format, like the field for the e-mail address.
 ### Wireframes
 
 - [Landingpage top](attachments/wireframelandingtop.pdf) | [mobile](attachments/mobilewireframelandingtop.pdf)
-- [Landingpage bottom](attachments/wireframelandingbottom.pdf) | [mobile](attachments/Mobilewireframelandingbottom.pdf)
-- [Gallery](attachments/Wireframegallery.pdf) | [mobile](attachments/mobilewireframegallery.pdf)
+- [Landingpage bottom](attachments/wireframelandingbottom.pdf) | [mobile](attachments/mobilewireframelandingbottom.pdf)
+- [Gallery](attachments/wireframegallery.pdf) | [mobile](attachments/mobilewireframegallery.pdf)
 - [Contact](attachments/wireframecontact.pdf) | [mobile](attachments/mobilewireframecontact.pdf)
 
 
