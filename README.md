@@ -19,7 +19,7 @@ website never require more than one click.
 The website is very image-heavy, and does not demand the user to do a lot of reading. Nonetheless, it is important
 that the fonts works well for reading and that they have somewhat of an interesting look  The website makes use of two fonts from [Google Fonts'](https://fonts.google.com/) library: [Cinzel](https://fonts.google.com/specimen/Cinzel)
  and [Poppins](https://fonts.google.com/specimen/Poppins). Cinzel is used for all headings and for the brand because
- of its fantasy-like feeling and sharpened, pointy edges. Poppins is used for all other text like paragraphs and in the contact form because of
+ of its fantasy-like feeling and sharpened, pointy edges. Poppins is used for all other text, like paragraphs and in the contact form, because of
  its nice and rounded shapes and easy-to-read style.
 
  ### Colors
@@ -78,7 +78,7 @@ This way the user can see that the artists master different kinds of motives.
 
 - [Contact Us](https://github.com/thorole/dragonsden/blob/master/contact.html) - This page presents the user with a form. The form asks the user about relevant information
 such as name, contact information and a textfield where the user can freely express her-/himself.
-The form also asks for optional information about how the user came across the site. This should be usefulfor the 
+The form also asks for optional information about how the user came across the site. This should be useful for the 
 owners.
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
@@ -116,13 +116,13 @@ bug was reported where the user was able to send text through the phone input on
 - Clicked all links in navbar, including brand, to make sure the user is directed to the correct section/page: success
 - Clicked contact link at bottom of landing page to make sure user is directed to contact page: success
 - Clicked contact link at bottom of landing page to make sure user is directed to contact page: success
-- Clicked "backt to top" link at bottom of landing page to make sure user is directed to top of landing page: success.
+- Clicked "back to top" link at bottom of landing page to make sure user is directed to top of landing page: success.
 - Clicked social media links to check if user is directed to correct social media network: success
 - Redused screen size to check that page displays in single column on smaller screens: success
 
 #### Gallery
 - Clicked all links in navbar, including brand, to make sure the user is directed to the correct section/page: success
-- Clicked all images to make sure the open in modal: success
+- Clicked all images to make sure they open in modal: success
 - Modal closes by clicking anywhere on modal: success
 - Redused screen size to make sure gallery displays in two columns instead of four columns on smaller screens: success
 - Clicked social media links to check if user is directed to correct social media network: success
